@@ -6,6 +6,9 @@
 <title>Small Dogs</title>
 	
 <style>
+	*{
+		box-sizing:border-box; 
+	}
 	body {
  background-image: url("assests/images/pawprintbackground.jpg");
  background-color: #cccccc;
@@ -13,7 +16,7 @@
 	#container {
 		width: 1000px;
 		height: 700px;
-		background-color: whitesmoke;
+		background-color: black;
 		margin: 0 auto;
 }
 	p.dotted {
@@ -27,29 +30,81 @@
 		font-family: 'Londrina Solid', cursive;
 		font-size: 80px;
 		color: white;
-		text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 40px lightgoldenrodyellow, 0 0 20px lightgoldenrodyellow;
+		text-align: center;	
 }
 	nav{
-		height: 40px;
+		height: 25px;
 		background-color: lightgoldenrodyellow;
+		 margin:auto;
+}
+	ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+	li {
+  display: inline;
 }
 	section{
-		width: 300px;
-		height: 200px;
-	}
+		width: 320px;
+		height: 500px;
+}
+	img{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10%;
+	 box-shadow: 10px 10px 5px black;
+}
 	.secLeft{
-		background-color: black;
+		background-color: lightgoldenrodyellow;
 			float: left;
+			margin: 20px 0px 15px 10px;
+			padding: 10px;
+			border-radius: 20px;
+			text-align: center;
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	}
 	.secMid{
-		background-color:aqua;
+		background-color:lightgoldenrodyellow;
 			float: left;
+			margin: 20px 0px 15px 10px;
+			padding: 10px;
+			border-radius: 20px;
+			text-align: center;
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+			
 	}
 	.secRight{
-		background-color:aquamarine;
+		background-color:lightgoldenrodyellow;
 			float: left;
+			margin: 20px 0px 15px 10px;
+			padding: 10px;
+			border-radius: 20px;
+			text-align: center;
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	}
+	aside{
+		background-color: yellow;
+			font-size: 10px;
+			height:50px;
+			width:300px;
+			padding: 5px 10px 5px 10px;
 	}
+	footer{
+		height:25px;
+		background-color: lightgoldenrodyellow;
+		clear:both;
+		border-radius: 10px;
+		padding: 5px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		font-size: 10px
+}	
 </style>
 </head>
 
@@ -57,14 +112,34 @@
 	
 <body>
 	<div id="container">
-		<header><p class="dotted">World Famous Dogs</p></header>
-	<nav></nav>
-	<section class="secLeft"></section>
-	<section class="secMid"></section>
-	<section class="secRight"></section>
+		<header><p class="dotted">Dogs of Hollywood</p></header>
+	<nav><ul>
+  <li>Home</li>
+  <li>Dogs</li>
+  <li>Trainers</li>
+  <li>Movies</li>
+</ul></nav>
+	<section class="secLeft"><img src="assests/images/airbud.jpg" alt="airbud"/>
+		<p><h4>Air Bud - Buddy</h4>
+		Air Bud is a classic American Family Comedy about a dog who plays sports. The original portrayal was done by a golden retriever named Buddy, which they named the movie after. Buddy also stared in the popular TV Sitcom "Full House" as the family dog, Comet. Buddy was nominated for two Kid's Choice Awards during his lifetime and the Air Bud franchise went on to create a total of 11 movies.</p>
+		</section>
+		
+	<section class="secMid"><img src="assests/images/toto.jpg" alt="toto"/>
+		<p><h4> The Wizard of Oz -Terry "<i>Toto</i>" </h4>
+		Terry was a female Cairn Terrier performer who appeared in many different movies, most famously as Toto in the film The Wizard of Oz. Starring alongside the likes of Judy Garland and Shirley Temple, Terry was featured in 16 different films during her lifetime. Terry now has a memorial in the Hollywood Forever Cementary in Los Angeles, where she has been effectively immortalized.
+		
+		<aside><i>Did You Know?<br></i>
+Toto's salary was $125 dollars a week. Today, that would be over $2,300!</aside></p>
+		</section>
+	<section class="secRight"><img src="assests/images/benji.jpg" alt="benji"/>
+		<p><h4> Benji - Higgins</h4>
+		With a career spanning over 14 years, Higgins was the top dog actor of the 1960's and 70's.
+		Most well known for his portrayal as the original Benji, Higgins also stared in Petticoat Function and the Beverly Hillbillies. Originally thought to be a Border Terrier, it was later discovered that he was mixed breed dog. Benji went on to be featured on the cover of TV Guide Magazine and received a PASTY Award for outstanding animal acting.  </p>
+	</section>
+		
 	
-<aside></aside>
-<footer></footer>
+
+<footer>Information compiled & website designed by Raynna Rivera. Information accessed in 2020 for Digital Media Purposes.</footer>
 			
 </div>
 </body>
