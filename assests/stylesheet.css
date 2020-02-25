@@ -63,7 +63,8 @@
 			padding: 10px;
 			border-radius: 20px;
 			text-align: center;
-			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+			font-family: 'Londrina Solid', cursive;
+			font-size: 18px
 	}
 	.secMid{
 		background-color:lightgoldenrodyellow;
@@ -72,7 +73,8 @@
 			padding: 10px;
 			border-radius: 20px;
 			text-align: center;
-			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+			font-family: 'Londrina Solid', cursive;
+			font-size: 18px
 			
 	}
 	.secRight{
@@ -82,15 +84,17 @@
 			padding: 10px;
 			border-radius: 20px;
 			text-align: center;
-			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+			font-family: 'Londrina Solid', cursive;
+			font-size: 18px
 }
 	aside{
 		background-color: yellow;
-			font-size: 10px;
-			height:50px;
+			font-size: 12px;
+			height:60px;
 			width:300px;
 			margin: auto;
 			padding: 5px 10px 5px 10px;
+			border-radius: 20px;
 }
 	footer{
 		height:25px;
